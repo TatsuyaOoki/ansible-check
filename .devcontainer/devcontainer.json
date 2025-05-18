@@ -20,9 +20,13 @@
 			"extensions": [
 				"redhat.ansible",
 				"yzhang.markdown-all-in-one",
-				"DavidAnson.vscode-markdownlint"
+				"DavidAnson.vscode-markdownlint",
+				"GitHub.vscode-github-actions"
 			],
 			"settings": {
+				"yaml.customTags": [
+					"!vault"
+				],
 				"ansible.ansible.path": "/home/vscode/.local/bin/ansible",
 				"ansible.validation.enabled": true,
 				"ansible.validation.lint.enabled": true,
