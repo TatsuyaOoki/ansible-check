@@ -1,0 +1,4 @@
+pywinrm
+ansible 
+ansible-lint
+ansible-navigator

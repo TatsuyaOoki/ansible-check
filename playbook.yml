@@ -1,0 +1,5 @@
+---
+- name: Execution Test
+  hosts: all
+  roles:
+    - check_facts
